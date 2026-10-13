@@ -1,10 +1,10 @@
-# GitHub Actions & CI/CD Guidelines for Vestel Jira MCP
+# GitHub Actions & CI/CD Guidelines for Jira MCP Server
 
 ---
 
 ## ⚙️ Environment Variables (Context)
 * **GITHUB_USERNAME**: `thehavays`
-* **GITHUB_PROJECT_NAME**: `vestel-jira-mcp`
+* **GITHUB_PROJECT_NAME**: `jira-mcp-server`
 
 ---
 

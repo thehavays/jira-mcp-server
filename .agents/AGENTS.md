@@ -1,12 +1,12 @@
-# Project Guidelines & Developer Onboarding for Vestel Jira MCP
+# Project Guidelines & Developer Onboarding for Jira MCP Server
 
-This document is a comprehensive guide for AI agents and developers to understand, find, and develop the `vestel-jira-mcp` Node.js application.
+This document is a comprehensive guide for AI agents and developers to understand, find, and develop the `jira-mcp-server` Node.js application.
 
 ---
 
 ## 📖 Project Summary
 
-**Vestel Jira MCP** is a Model Context Protocol (MCP) server for integrating with Jira. It provides tools and resources to interact with Jira issues, users, and projects through the MCP protocol.
+**Jira MCP Server** is a Model Context Protocol (MCP) server for integrating with Jira. It provides tools and resources to interact with Jira issues, users, and projects through the MCP protocol.
 
 ### Key Technologies
 - **Framework**: Node.js (ES Modules)
@@ -20,7 +20,7 @@ This document is a comprehensive guide for AI agents and developers to understan
 
 The project code is a standard Node.js package structure:
 
-* **[vestel-jira-mcp/](../)**: Root folder of the repository.
+* **[jira-mcp-server/](../)**: Root folder of the repository.
   * **[index.js](../index.js)**: Contains the main logic and entry point for the MCP server.
   * **[tests/](../tests)**: Contains vitest unit tests.
   * **[scripts/](../scripts)**: Contains helper scripts for development (e.g., mock fetching).

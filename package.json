@@ -1,10 +1,11 @@
 {
-  "name": "vestel-jira-mcp",
+  "name": "jira-mcp-server",
   "version": "1.0.0",
+  "description": "Atlassian Jira Model Context Protocol (MCP) server for issue tracking and development status",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "vestel-jira-mcp": "./index.js"
+    "jira-mcp-server": "./index.js"
   },
   "license": "MIT",
   "files": [

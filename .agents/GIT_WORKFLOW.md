@@ -1,11 +1,11 @@
-# Git & GitHub Workflow Guidelines for Vestel Jira MCP
+# Git & GitHub Workflow Guidelines for Jira MCP Server
 
 ---
 
 ## ⚙️ Environment Variables (Context)
 
 * **GITHUB_USERNAME**: `thehavays`
-* **GITHUB_PROJECT_NAME**: `Vestel Jira MCP`
+* **GITHUB_PROJECT_NAME**: `Jira MCP Server`
 
 ---
 
