@@ -1,6 +1,12 @@
-# Vestel Jira MCP Server
+# Jira MCP Server
 
 An integration server built on the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) that connects AI assistants to Jira. It provides tools to retrieve, search, create, and update issues, supporting input/output schema validation.
+
+## Supported Jira Versions
+
+- **Jira Server & Data Center**: 8.x, 9.x, 10.x (self-hosted enterprise deployments)
+- **Jira Cloud**: Atlassian Cloud instances using standard REST API v2 (`/rest/api/2/`)
+- **Development Status API**: Jira Development Status REST API v1.0 (`/rest/dev-status/1.0/`) supporting commits from Bitbucket, Crucible/Fisheye, GitHub, and GitLab integrations
 
 ## Features
 
@@ -53,8 +59,6 @@ You can also restrict access by creating a `.jira-config.json` file in your serv
 
 If the file is present, it will take precedence over the environment variables.
 
-
-
 ---
 
 ## MCP Integration Guide
@@ -66,9 +70,9 @@ Configure your MCP host (such as Claude Desktop or Gemini Code Assist) to launch
 ```json
 {
   "mcpServers": {
-    "vestel-jira": {
+    "jira": {
       "command": "npx",
-      "args": ["-y", "github:thehavays/vestel-mcp-server"],
+      "args": ["-y", "github:thehavays/jira-mcp-server"],
       "env": {
         "JIRA_URL": "https://jira.example.com/",
         "JIRA_USERNAME": "your_username",
